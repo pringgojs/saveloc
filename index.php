@@ -106,7 +106,7 @@ s<!DOCTYPE html>
           function showPosition(posisi){
               // tampilkan kordinat di dalam elemen lokasi
 
-              var latlong = posisi.coords.latitude +"," + posisi.coords.longitude;
+              var latlong = posisi.coords.latitude +", " + posisi.coords.longitude;
               lokasi.value = latlong;
           }
         
