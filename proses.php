@@ -19,6 +19,6 @@
     $insert = mysqli_query($connect, "insert into lokasi set latlong='$latlong', no_kontak='$no_kontak', nama='$nama_tempat', kategori='$kategori', keterangan='$keterangan' ");
 
     //kembali
-    header("Location: get_lokasi.php");
+    header("Location: index.php");
 
 ?>
