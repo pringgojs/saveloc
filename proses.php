@@ -1,7 +1,11 @@
 <?php
+    if (!isset($_POST['latlong'])) {
+        header("Location: get_lokasi.php");
+    }
+
+
     //koneksi
     $connect = mysqli_connect('localhost', 'root', '', 'db_saveloc');
-
 
     //set variabel
     $latlong       = $_POST['latlong'];
