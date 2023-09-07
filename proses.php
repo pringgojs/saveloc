@@ -1,6 +1,6 @@
 <?php
     if (!isset($_POST['latlong'])) {
-        header("Location: get_lokasi.php");
+        header("Location: index.php");
     }
 
 
